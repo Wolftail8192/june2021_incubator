@@ -1,0 +1,326 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 5000px;
+}
+.d-flex{
+    display: flex;
+}
+.header_top{
+    height: 100px;
+
+}
+.a-items-center{
+    align-items: center;
+}
+.header_top__grid{
+    column-gap: 141px;
+    grid-column-gap: 141px;
+}
+
+
+.wrapper{
+    padding-left: 145px;
+
+}
+.header_menu__nav{
+    grid-column-gap: 22px;
+}
+.header_menu__buttons{
+    margin-left: 27px;
+    grid-column-gap: 18px;
+}
+.header_menu__nev__item a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+    font-weight: normal;
+
+
+}
+
+.header_menu__button__login{
+    color:#000000;
+    background-color: #FFFFFF;
+
+}
+.header_menu__button__login:hover{
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.header_menu__button__expert{
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.header_menu__button__expert:hover{
+    color:#000000;
+    background-color: #FFFFFF;
+}
+.header_menu__button__expert, .header_menu__button__login, .button_talk__to__us button{
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.first_screen{
+    position: relative;
+}
+.first_screen__left{
+    max-width: 490px;
+    padding-top: 92px;
+}
+.first_screen__grid{
+    column-gap: 50px;
+    border-bottom: 1px solid #EAEEF2;
+}
+.first_screen__grid h1{
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: black;
+    margin-bottom: 27px;
+}
+.first_screen__left p{
+    color: black;
+    font-size: 20px;
+    line-height: 31px;
+}
+.button_talk__to__us button{
+    font-size: 22px;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+.button_talk__to__us h4{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.button_talk__to__us{
+    width: 215px;
+    flex-direction: column;
+    position: absolute;
+    bottom:-30px;
+    left: 140px;
+}
+.second_screen{
+    background: #FFFFFF;
+    border-radius: 0;
+    /*height: 3261px;*/
+}
+.wrapper_second_screen__one{
+    margin-top: 54px;
+    /*position: absolute;*/
+}
+.wrapper_second_screen__one__right h2{
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    max-width: 443px;
+    margin: 52px 265px 0 732px;
+
+
+}
+.wrapper_second_screen__one__right p{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    max-width: 515px;
+    position: relative;
+    margin: 33px 193px 126px 732px;
+
+}
+.wrapper_second_screen__one__left{
+    margin: 84px 812px 143px 145px;
+    position: absolute;
+}
+.wrapper_second_screen__two {
+    position: relative;
+}
+.wrapper_second_screen__two h2{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-left: 145px;
+    /*position: absolute;*/
+    padding-bottom: 82px;
+}
+.wrapper_second_screen__two__grid{
+    position: relative;
+    grid-column-gap: 163px;
+    margin-left: 145px;
+}
+.wrapper_second_screen__two__grid h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+.wrapper_second_screen__two__grid__one p{
+    max-width: 295px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    /*position: absolute;*/
+    margin-bottom: 71px;
+
+}
+.wrapper_second_screen__two__grid__two p{
+    max-width: 292px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper_second_screen__two__grid__three p{
+    max-width: 272px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper_second_screen__two__button__discover {
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 12px 30px 12px 31px;
+    cursor: pointer;
+    color: black;
+    background-color:#F7B2B7;
+    width: 235px;
+    margin-left: 145px;
+    /*position: absolute;*/
+
+}
+.wrapper_second_screen__two{
+    margin-top: 54px;
+}
+.wrapper_second_screen__three{
+    background: #FDECED;
+    margin-top: 126px;
+}
+.wrapper_second_screen__three__grid__one{
+    max-width: 304px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper_second_screen__three__grid__two{
+    max-width: 304px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper_second_screen__three__grid__three{
+    max-width: 304px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper_second_screen__three__grid{
+    position: relative;
+    grid-column-gap: 54px;
+    margin-left: 145px;
+
+;
+}
+.wrapper_second_screen__three h2{
+    padding-top: 88px;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-left: 145px;
+}
+.wrapper_second_screen__four{
+    width: 1035px;
+    height: 450px;
+    margin: 36px 260px 35px 145px;
+    background: crimson;
+}
+.wrapper_second_screen__five__left{
+    margin-left: 145px;
+}
+.wrapper_second_screen__five__left h2{
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-top: 191px;
+
+}
+.wrapper_second_screen__five__left p{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    max-width: 547px;
+    margin-top: 40px;
+
+}
+.wrapper_second_screen__five__right{
+    margin-top: 108px;
+}
+.wrapper_second_screen__five__left button{
+    background: #F7B2B7;
+    margin-top: 91px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #F7B2B7;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 12px 31px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.third_screen_right button{
+    background: #000000;
+    margin-top: 129px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 12px 31px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.third_screen{
+    background: #8BD4D6;
+    border-radius: 10px;
+    width: 1150px;
+    height: 283px;
+    margin: 186px 145px;
+    padding-left: 90px;
+
+}
+.third_screen_left h2{
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 89px;
+
+}
+.third_screen_left p{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 18px;
+}
+
+
+.third_screen_right{
+    margin-left: 226px;
+}
