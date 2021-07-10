@@ -245,11 +245,11 @@ body{
     color: #000000;
     margin-left: 145px;
 }
-.wrapper_second_screen__four{
+.wrapper_second_screen__four__1{
     width: 1035px;
     height: 450px;
     margin: 36px 260px 35px 145px;
-    background: crimson;
+    background: #FFFFFF;
 }
 .wrapper_second_screen__five__left{
     margin-left: 145px;
@@ -271,6 +271,7 @@ body{
 }
 .wrapper_second_screen__five__right{
     margin-top: 108px;
+    padding-left: 120px;
 }
 .wrapper_second_screen__five__left button{
     background: #F7B2B7;
@@ -399,4 +400,49 @@ body{
 }
 .bottom_screen__b4__1{
     margin-top: 62px;
+}
+.wrapper_second_screen__four__1__1__1{
+    margin-top: 89px;
+    padding-left: 0;
+
+}
+.wrapper_second_screen__four__2{
+    margin-top: 89px;
+    padding-left: 53px;
+
+}
+.wrapper_second_screen__four__3{
+    margin-top: 85px;
+    padding-left: 53px;
+
+}
+wrapper_second_screen__four__1{
+    margin-top: 92px;
+}
+.wrapper_second_screen__four__1__1{
+    margin-top: 57px;
+    padding-left: 120px;
+    column-gap: 107px;
+}
+.k1__2{
+    margin-top: 70px;
+}
+.k1__3{
+    margin-top: 70px;
+}
+.k2__2{
+    margin-top: 70px;
+}
+.k2__3{
+    margin-top: 70px;
+}
+
+.k3__1{
+    margin-left: 50px;
+}
+.k3__2{
+    margin-top: 70px;
+}
+.k3__3{
+    margin-top: 70px;
 }
