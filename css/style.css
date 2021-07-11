@@ -9,6 +9,9 @@ body{
     height: 4000px;
     width: 1440px;
 }
+html, body{
+    overflow-x: hidden;
+}
 .d-flex{
     display: flex;
 }
