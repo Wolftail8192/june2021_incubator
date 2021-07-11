@@ -446,3 +446,34 @@ wrapper_second_screen__four__1{
 .k3__3{
     margin-top: 70px;
 }
+.mobile_menu_button{
+    width: 60px;
+    height: 60px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_menu_button span{
+    height: 5px;
+    width: 80%;
+    background: chocolate;
+    display: block;
+    position: relative;
+
+}
+.mobile_menu_button span::before, .mobile_menu_button span::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: chocolate;
+    display: block;
+    position: absolute;
+}
+.mobile_menu_button span::before{
+    top: -10px;
+
+}
+.mobile_menu_button span::after{
+    bottom: -10px;
+}

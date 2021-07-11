@@ -1,3 +1,195 @@
 @media screen and (max-width: 480px) {
+    .header_menu, .first_screen__right, .wrapper_second_screen__one__left {
+        display: none;
+    }
+    .wrapper{
+        padding: 0 20px ;
+    }
+
+
+    .button_talk__to__us{
+        position: inherit;
+    }
+    .first_screen__left {
+        max-width: 400px;
+        padding-top: 22px;
+    }
+    .first_screen__left h1{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .first_screen__left p{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .mobile_menu_button{
+        display: flex;
+    }
+    .wrapper_second_screen__one__right h2{
+        height: 200px;
+    }
+    .wrapper_second_screen__one__right h2 {
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 28px;
+        max-width: 400px;
+        margin: 20px 65px 0 32px;
+    }
+    .wrapper_second_screen__one__right p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+        max-width: 300px;
+        position: relative;
+        margin: 3px 13px 16px 32px;
+    }
+    .wrapper_second_screen__two h2 {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 35px;
+        padding-bottom: 2px;
+    }
+    .wrapper_second_screen__two__grid {
+        margin-left: 35px;
+        display: grid;
+    }
+    .wrapper_second_screen__two__grid h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        color: aqua;
+    }
+    .wrapper_second_screen__two__grid__one p, .wrapper_second_screen__two__grid__two p, .wrapper_second_screen__two__grid__three p {
+        max-width: 295px;
+        font-size: 15px;
+        line-height: 18px;
+        color: chocolate;
+        margin-bottom: 20px;
+    }
+    .wrapper_second_screen__three h2 {
+        padding-top: 88px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000000;
+        margin-left: 35px;
+    }
+    .wrapper_second_screen__three {
+        background: #FDECED;
+        margin-top: 26px;
+    }
+    .wrapper_second_screen__three__grid{
+        display: grid;
+    }
+    .wrapper_second_screen__three__grid {
+        margin-left: 35px;
+    }
+    .wrapper_second_screen__three__grid__one, .wrapper_second_screen__three__grid__two, .wrapper_second_screen__three__grid__three {
+        max-width: 304px;
+        font-size: 15px;
+        line-height: 18px;
+        color: darkblue;
+
+    }
+    .wrapper_second_screen__four__1__1__1{
+        margin-top: 20px;
+    }
+    .wrapper_second_screen__four__1 {
+        margin: 6px 26px 5px 35px;
+        display: grid;
+    }
+    .wrapper_second_screen__four__1__1, .wrapper_second_screen__four__2, .wrapper_second_screen__four__3{
+        display: none;
+    }
+    wrapper_second_screen__four__right{
+        display: none;
+    }
+    .wrapper_second_screen__five__right {
+        display: none;
+    }
+    .wrapper_second_screen__five__left p {
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        max-width: 447px;
+        margin-top: 4px;
+    }
+    .wrapper_second_screen__five__left h2 {
+        font-size: 15px;
+        line-height: 18px;
+        color: darkblue;
+        margin-top: 1px;
+    }
+    .wrapper_second_screen__five__left {
+        margin-left: 35px;
+    }
+    .third_screen_left h2 {
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        margin-top: 9px;
+    }
+    .third_screen {
+        background: #8BD4D6;
+        border-radius: 10px;
+        margin: 6px 5px 18px 35px;
+        display: grid;
+        width: 300px;
+    }
+    .third_screen_right button {
+        background: #000000;
+        margin-top: 1px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        border: 1px solid darkblue;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 12px 31px;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .wrapper_second_screen__five__left button {
+        background: #F7B2B7;
+        margin-top: 1px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        border: 1px solid #F7B2B7;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 12px 31px;
+        cursor: pointer;
+        transition: background-color 500ms, color 500ms;
+    }
+    .third_screen_right {
+        margin-left: 10px;
+    }
+    .bottom_screen__b1, .bottom_screen__b4, .bottom_screen__b3, .bottom_screen__b2 {
+        padding-left: 35px;
+        display: grid;
+    }
+    .bottom_screen__b1 h2 {
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding-left: 8px;
+        margin-top: 4px;
+    }
+    .bottom_screen p {
+        margin-top: 5px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #C5E9EA;
+        margin-bottom: 8px;
+
+    }
+    .bottom_screen {
+        height: auto;
+        background: #302E3F;
+        border-radius: 0;
+    }
 
 }
