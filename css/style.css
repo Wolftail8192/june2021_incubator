@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    height: 5000px;
+    height: 4000px;
     width: 1440px;
 }
 .d-flex{
@@ -306,6 +306,7 @@ body{
     height: 283px;
     margin: 186px 145px 108px 145px;
     padding-left: 90px;
+    display: flex;
 
 }
 .third_screen_left h2{
@@ -416,7 +417,7 @@ body{
     padding-left: 53px;
 
 }
-wrapper_second_screen__four__1{
+.wrapper_second_screen__four__1{
     margin-top: 92px;
 }
 .wrapper_second_screen__four__1__1{

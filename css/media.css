@@ -15,6 +15,8 @@
 
     .button_talk__to__us{
         position: inherit;
+        width: 480px;
+        left: 0;
     }
     .first_screen__left {
         max-width: 400px;
@@ -101,11 +103,14 @@
     }
     .wrapper_second_screen__four__1__1__1{
         margin-top: 20px;
+        width: 480px;
+        height: 62px;
     }
     .wrapper_second_screen__four__1 {
-        margin: 1px;
+        margin: 0;
         display: grid;
         width: 480px;
+        height: 102px;
     }
     .wrapper_second_screen__four__1__1, .wrapper_second_screen__four__2, .wrapper_second_screen__four__3{
         display: none;
@@ -141,9 +146,10 @@
     .third_screen {
         background: #8BD4D6;
         border-radius: 10px;
-        margin: 1px;
+        margin: 0;
         display: grid;
         width: 480px;
+        padding: 10px;
     }
     .third_screen_right button {
         background: #000000;
